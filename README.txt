@@ -8,7 +8,7 @@ Devalbi Raje Daviar (23991003)
 Rahmatul Zamri (23991004)
 
 Job Desc :
-Anggota 1 :
+Anggota 1 : R
 - Membuat Desain Figma dan Fitur Pengambilan darah
 
 Anggota 2: Hafizh Shafar Raharjo
