@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailDonorActivity">
+
+    <ImageView
+        android:id="@+id/img_bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/bg_red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Ambil Darahmu"
+        android:textColor="@color/white"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/inner_card"
+        android:padding="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bg">
+
+        <TextView
+            android:id="@+id/tv_detail_tp_darah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/dark_red"
+            android:textSize="18pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="A+" />
+
+        <ImageView
+            android:id="@+id/img_detail_loc"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/dark_red"
+            android:src="@drawable/baseline_location_on_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_tp_darah" />
+
+        <TextView
+            android:id="@+id/tv_detail_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_detail_loc"
+            app:layout_constraintStart_toEndOf="@+id/img_detail_loc"
+            app:layout_constraintTop_toTopOf="@+id/img_detail_loc"
+            tools:text="PMI KAPENAWON" />
+
+        <ImageView
+            android:id="@+id/img_detail_exp"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/baseline_calendar_month_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_detail_loc" />
+
+        <TextView
+            android:id="@+id/tv_detail_exp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_detail_exp"
+            app:layout_constraintStart_toEndOf="@+id/img_detail_exp"
+            app:layout_constraintTop_toTopOf="@+id/img_detail_exp"
+            tools:text="2023-12-07" />
+
+        <ImageView
+            android:id="@+id/img_detail_sts"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/baseline_check_24"
+            app:layout_constraintEnd_toEndOf="@+id/img_detail_exp"
+            app:layout_constraintStart_toStartOf="@+id/img_detail_exp"
+            app:layout_constraintTop_toBottomOf="@+id/img_detail_exp" />
+
+        <TextView
+            android:id="@+id/tv_detail_sts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_detail_sts"
+            app:layout_constraintStart_toEndOf="@+id/img_detail_sts"
+            app:layout_constraintTop_toTopOf="@+id/img_detail_sts"
+            tools:text="Tersedia" />
+
+        <Button
+            android:id="@+id/btn_detail_pesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="Pesan Darah"
+            android:backgroundTint="@color/dark_red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_sts" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

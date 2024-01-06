@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Donor+</string>
+
+
+    <string-array name="filter_options">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <!-- Anda dapat menambahkan golongan darah dan Rh faktor lainnya jika diperlukan -->
+    </string-array>
+
+    <string-array name="pmi">
+        <item>PMI Kapenewon Pakem</item>
+        <item>PMI Kabupaten Sleman</item>
+        <item>PMI Istimewa Yogyakarta</item>
+    </string-array>
+
+
+</resources>

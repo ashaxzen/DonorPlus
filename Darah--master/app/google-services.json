@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188019480769",
+    "project_id": "donor-plus",
+    "storage_bucket": "donor-plus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188019480769:android:ea4be892ee95d640ac5c40",
+        "android_client_info": {
+          "package_name": "com.donorplus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh2umnd4FaJ0XIl27QUhLCCXwipjHKpiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
